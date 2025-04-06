@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Series</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="table">
+        <h1 class="mt-4">Series de Televisión</h1>
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Channel</th>
+                    <th>Seasons</th>
+                </tr>
+            </thead>
+            <tbody id="series">
+            </tbody>
+        </table>
+        <p id="averageSeasons" class="mt-3"></p>
+    </div>
+    <script type="module" src="./scripts/Serie.js"></script>
+    <script type="module" src="./scripts/data.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
